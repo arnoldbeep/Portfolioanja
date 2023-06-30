@@ -196,17 +196,21 @@ color: #fff;
 /*ab hier*/
 .containeranja {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width:50%;
   }
   
   .oval-image {
-	width: 33%;
-	height: 0;
+	width: 50%;
+	height: 0px;
 	padding-bottom: 50%;
 	position:relative;
 	border-radius: 50%;
 	overflow: hidden;
+	/*clip-path: circle(46% at 50% 50%);*/
+
   }
   
   .oval-image img {
@@ -1267,7 +1271,7 @@ h4{
 	color: #303284;
 }
 @font-face {
-	font-family: 'bitIcon';
+	font-family: 'Icon';
 	src:url('fonts/bitIcon.eot?dm333u');
 	src:url('fonts/bitIcon.eot?dm333u#iefix') format('embedded-opentype'),
 	url('fonts/bitIcon.ttf?dm333u') format('truetype'),
@@ -3084,11 +3088,3 @@ weight:25px;
 			margin-left: 0;
 		}
 		}
-@media screen and (max-width: 780px) {
-	#resume {
-		font-size: 35px;
-		margin-right: 0;
-		margin-left: 0;
-	}
-	#resume img
-}
