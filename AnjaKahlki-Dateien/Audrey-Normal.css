@@ -2,12 +2,12 @@
 
 @font-face {
 	font-family:'Audrey-Normal';
-	src: url('Audrey-Normal_gdi.eot');
-	src: url('Audrey-Normal_gdi.eot?#iefix') format('embedded-opentype'),
+	src: url('Audrey-Normal.otf');
+	/*src: url('Audrey-Normal_gdi.eot?#iefix') format('embedded-opentype'),
 		url('Audrey-Normal_gdi.woff') format('woff'),
 		url('Audrey-Normal_gdi.ttf') format('truetype'),
-		url('Audrey-Normal_gdi.otf') format('opentype'),
-		url('Audrey-Normal_gdi.svg#Audrey-Normal') format('svg');
+		url('Audrey-Normal.otf') format('opentype'),
+		url('Audrey-Normal_gdi.svg#Audrey-Normal') format('svg');*/
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: normal;
