@@ -7,7 +7,7 @@
 	src: url('Audrey-Normal_gdi.eot?#iefix') format('embedded-opentype'),
 	url('Audrey-Normal_gdi.woff') format('woff'),
 	url('Audrey-Normal_gdi.ttf') format('truetype'),
-	url('Audrey-Normal_gdi.otf') format('opentype'),
+	url('AnjaKahlki-Dateien\Audrey-Normal.otf') format('opentype'),
 	url('Audrey-Normal_gdi.svg#Audrey-Normal') format('svg');
 	font-weight: 400;
 	font-style: normal;
@@ -15,9 +15,9 @@
 }
 @font-face {
 	font-family: "Audrey-Normal";
-	src: url("fonts/Audrey-Normal.otf");
+	src: url("AnjaKahlki-Dateien\Audrey-Normal.otf");
 }
-
+/*
 @font-face {
 	font-family: 'bitIcon';
 	src:url('fonts/bitIcon.eot?dm333u');
@@ -28,7 +28,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
+/*
 [class^="bitIcon-"], [class*=" bitIcon-"] {
 	font-family: 'bitIcon';
 	speak: none;
@@ -40,7 +40,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
+*/
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -49,6 +49,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font: inherit;
 	font-size: 100%;
 	vertical-align: baseline;
+	font-family: Arial; /* ME!*/
 }
 
 
@@ -82,11 +83,11 @@ caption, th, td {
 	font-weight: normal;
 	vertical-align: middle;
 }
-
+/*Hier Text als qualifi...*/
 q, blockquote {
 	margin-top: 20px;
 	font-size: 23px;
-	font-family: "Audrey-Normal", monospace;
+	font-family: "Arial"
 	font-weight: bolder;
 	text-align: center;
 
@@ -384,7 +385,7 @@ body > section > .holder > .title h2 {
 	display: inline-block;
 	padding: 0 0 12px;
 	text-transform: uppercase;
-	font-family: "Audrey-Normal", monospace;
+	/*font-family: "Audrey-Normal";*/
 }
 
 body > section > .holder > .title h2:after {
